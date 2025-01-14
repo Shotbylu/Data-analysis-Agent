@@ -1,0 +1,29 @@
+## 📁 Project Structure
+```
+automl-dashboard/
+├── src/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── components/
+│   │   ├── __init__.py
+│   │   ├── data_loader.py
+│   │   ├── data_analyzer.py
+│   │   └── model_trainer.py
+│   └── utils/
+│       ├── __init__.py
+│       └── helpers.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_data_loader.py
+│   ├── test_data_analyzer.py
+│   └── test_model_trainer.py
+├── data/
+│   └── example_dataset.csv
+├── docs/
+│   ├── CONTRIBUTING.md
+│   └── API.md
+├── .gitignore
+├── requirements.txt
+├── setup.py
+└── README.md
+```
